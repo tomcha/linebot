@@ -1,5 +1,9 @@
-require "linebot/version"
+require 'linebot/version'
+require 'sinatra/base'
+require 'json'
+require 'yaml'
 
 module Linebot
-  # Your code goes here...
+  class Application < Sinatra::Base
+  end
 end
